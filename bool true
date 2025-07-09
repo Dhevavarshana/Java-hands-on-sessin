@@ -1,0 +1,11 @@
+package practice_java;
+
+public class datatype {
+
+	public static void main(String[] args) {
+		boolean gate=true;
+		System.out.println("boolean gate="+gate);
+		
+	}
+
+}
