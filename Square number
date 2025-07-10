@@ -1,0 +1,19 @@
+package practice_java;
+
+import java.util.Scanner;
+
+public class Sqnum {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); // To take input from user
+
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt(); // Read input
+
+        int square = num * num; // Calculate square
+
+        System.out.println("Square of " + num + " is: " + square); // Print result
+
+        scanner.close();
+    }
+}
