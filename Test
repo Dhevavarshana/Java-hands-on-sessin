@@ -1,0 +1,26 @@
+package practice_java;
+
+import java.util.Scanner;
+
+class print
+{
+	public int number;
+	public void display()
+	{
+		System.out.println("number = "+number);
+	}
+}
+public class Test {
+
+	public static void main(String[] args) {
+		Scanner x=new Scanner(System.in);
+		print obj=new print();
+		System.out.println("Enter the number :");
+		int num=x.nextInt();
+		obj.number=num;
+		obj.display();
+		obj.number=400;
+		obj.display();
+	}
+
+}
