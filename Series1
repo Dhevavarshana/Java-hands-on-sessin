@@ -1,0 +1,13 @@
+package practice_java;
+
+public class Series1{
+
+    public static void main(String[] args) {
+        int i = 100; // Initialization
+
+        while(i <= 200) { // Condition
+            System.out.println("i = " + i);
+            i++; // Increment
+        }
+    }
+}
