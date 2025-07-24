@@ -1,0 +1,23 @@
+package practice_java;
+class Cycle{
+	Cycle(){
+		System.out.println("Default Constructor"); // no parameter constructor
+	}
+	Cycle(int i){
+		int num=i;
+		System.out.println("Parameterized Constructor "+num); 
+		}
+	Cycle(int i,int j){
+		int num1=i,num2=j;
+		System.out.println("Parameterized Constructor "+num1+" "+num2);
+	}
+}
+public class cons {
+
+	public static void main(String[] args) {
+		Cycle obj=new Cycle();
+		Cycle obj2=new Cycle(400);
+		Cycle obj3=new Cycle(200,400);
+	}
+
+}
